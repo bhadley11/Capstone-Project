@@ -1,12 +1,6 @@
 site_name: "Brielle's Open Science Resources"
 theme:
   name: material
-  logo: images/logo.png  # Optional: add your logo if you have one
-  favicon: images/favicon.ico  # Optional: add a favicon
-  features:
-    - navigation.tabs
-    - navigation.top
-    - content.code.annotate
 
 nav:
   - Home: index.md
@@ -24,14 +18,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.superfences
-  - pymdownx.highlight
-  
   - toc:
       permalink: true
   - pymdownx.superfences
   - pymdownx.highlight
 
-# Repository URL (if you want to show a GitHub link)
+# Repository URL (optional)
 repo_url: https://github.com/yourusername/your-repo-name
 repo_name: "GitHub"
