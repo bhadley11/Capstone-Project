@@ -1,8 +1,8 @@
 site_name: "Brielle's Open Science Resources"
 theme:
   name: material
-  logo: images/logo.png  # Optional: add your logo if you have one
-  favicon: images/favicon.ico  # Optional: add a favicon
+  logo: images/namebanner.png  # Use the "namebanner" image as the logo
+  favicon: images/favicon.ico  # Optional: add a favicon if you have one
   features:
     - navigation.tabs
     - navigation.top
@@ -28,3 +28,7 @@ markdown_extensions:
       permalink: true
   - pymdownx.superfences
   - pymdownx.highlight
+
+# Repository information (optional)
+repo_url: https://github.com/yourusername/your-repo-name
+repo_name: "GitHub"
